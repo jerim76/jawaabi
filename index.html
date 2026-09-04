@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jawaab Empowerment Initiative</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <div class="logo-circle">
+            <i class="fa-solid fa-people-group"></i>
+        </div>
+
+        <div>
+            <h2>JAWAAB</h2>
+            <span>EMPOWERMENT INITIATIVE</span>
+        </div>
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Us</a>
+
+        <div class="dropdown">
+            <a href="#programmes">
+                Our Programmes
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+
+        <a href="#impact">Our Impact</a>
+
+        <div class="dropdown">
+            <a href="#get-involved">
+                Get Involved
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+
+        <a href="#stories">News & Stories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#donate" class="donate-btn">
+        <i class="fa-solid fa-heart"></i>
+        Donate
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            Empowering Communities. Transforming Lives.
+        </p>
+
+        <h1>
+            Building a Just, Healthy and
+            <span>Sustainable</span> Society
+        </h1>
+
+        <p class="hero-text">
+            Jawaab Empowerment Initiative (JEI) is a community-based
+            organization working to advance mental wellness, climate action,
+            gender equity and access to clean water and sanitation for all.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#programmes" class="primary-btn">
+                Our Programmes
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#get-involved" class="secondary-btn">
+                Partner With Us
+                <i class="fa-regular fa-handshake"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="section-image">
+        <div class="image-placeholder">
+            <i class="fa-solid fa-hands-holding-child"></i>
+        </div>
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-label">WHO WE ARE</p>
+
+        <h2>
+            Creating opportunities for
+            <span>stronger communities</span>
+        </h2>
+
+        <p>
+            Jawaab Empowerment Initiative works with communities to address
+            social, environmental and economic challenges while creating
+            opportunities for people to live healthier and more dignified lives.
+        </p>
+
+        <p>
+            We believe that sustainable change happens when communities are
+            empowered to identify their own challenges and participate in
+            creating solutions.
+        </p>
+
+        <a href="#" class="text-link">
+            Learn more about us
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROGRAMMES ================= -->
+
+<section class="programmes section" id="programmes">
+
+    <div class="section-heading">
+
+        <p class="section-label">WHAT WE DO</p>
+
+        <h2>Our Focus Areas</h2>
+
+        <div class="heading-line"></div>
+
+        <p>
+            We work across four interconnected areas to create healthier,
+            safer and more sustainable communities.
+        </p>
+
+    </div>
+
+
+    <div class="programme-grid">
+
+        <!-- Mental Wellness -->
+
+        <div class="programme-card">
+
+            <div class="icon purple">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <h3>Mental Wellness</h3>
+
+            <p>
+                Promoting mental well-being and psychosocial support
+                for individuals and communities.
+            </p>
+
+            <a href="#">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Climate -->
+
+        <div class="programme-card">
+
+            <div class="icon green">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+
+            <h3>Climate Action</h3>
+
+            <p>
+                Empowering communities to adapt to climate change
+                and protect our environment.
+            </p>
+
+            <a href="#">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Gender -->
+
+        <div class="programme-card">
+
+            <div class="icon orange">
+                <i class="fa-solid fa-venus-mars"></i>
+            </div>
+
+            <h3>Gender Equity</h3>
+
+            <p>
+                Promoting gender equality and empowering women and
+                girls to reach their full potential.
+            </p>
+
+            <a href="#">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- WASH -->
+
+        <div class="programme-card">
+
+            <div class="icon blue">
+                <i class="fa-solid fa-droplet"></i>
+            </div>
+
+            <h3>WASH</h3>
+
+            <p>
+                Improving access to clean water, sanitation and
+                hygiene in underserved communities.
+            </p>
+
+            <a href="#">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= IMPACT ================= -->
+
+<section class="impact" id="impact">
+
+    <div class="impact-item">
+
+        <div class="impact-icon">
+            <i class="fa-solid fa-users"></i>
+        </div>
+
+        <div>
+            <strong>15,000+</strong>
+            <p>People Reached</p>
+            <small>Across diverse communities</small>
+        </div>
+
+    </div>
+
+
+    <div class="impact-item">
+
+        <div class="impact-icon">
+            <i class="fa-solid fa-clipboard-check"></i>
+        </div>
+
+        <div>
+            <strong>120+</strong>
+            <p>Projects Implemented</p>
+            <small>Since our inception</small>
+        </div>
+
+    </div>
+
+
+    <div class="impact-item">
+
+        <div class="impact-icon">
+            <i class="fa-solid fa-hands-holding-heart"></i>
+        </div>
+
+        <div>
+            <strong>8,500+</strong>
+            <p>Women & Youth Empowered</p>
+            <small>Through skills and training</small>
+        </div>
+
+    </div>
+
+
+    <div class="impact-item">
+
+        <div class="impact-icon">
+            <i class="fa-solid fa-droplet"></i>
+        </div>
+
+        <div>
+            <strong>35+</strong>
+            <p>Communities Served</p>
+            <small>With WASH interventions</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GET INVOLVED ================= -->
+
+<section class="involved section" id="get-involved">
+
+    <div class="section-heading">
+
+        <p class="section-label">JOIN THE MOVEMENT</p>
+
+        <h2>Be Part of the Change</h2>
+
+        <p>
+            Sustainable change requires all of us. Join Jawaab in
+            creating meaningful change within communities.
+        </p>
+
+    </div>
+
+
+    <div class="involved-grid">
+
+        <div class="involved-card">
+            <i class="fa-solid fa-handshake"></i>
+            <h3>Partner With Us</h3>
+            <p>
+                Collaborate with us to develop impactful community programmes.
+            </p>
+            <a href="#contact">Partner</a>
+        </div>
+
+
+        <div class="involved-card">
+            <i class="fa-solid fa-user-plus"></i>
+            <h3>Volunteer</h3>
+            <p>
+                Share your skills, time and passion with communities.
+            </p>
+            <a href="#contact">Volunteer</a>
+        </div>
+
+
+        <div class="involved-card">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Support Our Work</h3>
+            <p>
+                Help us expand our programmes and reach more communities.
+            </p>
+            <a href="#donate">Support</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STORIES ================= -->
+
+<section class="stories section" id="stories">
+
+    <div class="section-heading">
+
+        <p class="section-label">LATEST UPDATES</p>
+
+        <h2>News & Stories</h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="story-grid">
+
+        <article class="story-card">
+
+            <div class="story-image">
+                <i class="fa-solid fa-people-group"></i>
+            </div>
+
+            <div class="story-content">
+
+                <small>COMMUNITY</small>
+
+                <h3>
+                    Empowering communities through action
+                </h3>
+
+                <p>
+                    Discover how our community programmes are creating
+                    meaningful and lasting change.
+                </p>
+
+                <a href="#">Read Story →</a>
+
+            </div>
+
+        </article>
+
+
+        <article class="story-card">
+
+            <div class="story-image">
+                <i class="fa-solid fa-seedling"></i>
+            </div>
+
+            <div class="story-content">
+
+                <small>CLIMATE ACTION</small>
+
+                <h3>
+                    Building climate-resilient communities
+                </h3>
+
+                <p>
+                    Exploring practical community-led approaches to
+                    climate resilience.
+                </p>
+
+                <a href="#">Read Story →</a>
+
+            </div>
+
+        </article>
+
+
+        <article class="story-card">
+
+            <div class="story-image">
+                <i class="fa-solid fa-hands-holding-heart"></i>
+            </div>
+
+            <div class="story-content">
+
+                <small>MENTAL WELLNESS</small>
+
+                <h3>
+                    Creating safe spaces for mental wellness
+                </h3>
+
+                <p>
+                    Our work to increase awareness and psychosocial
+                    support within communities.
+                </p>
+
+                <a href="#">Read Story →</a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="contact-info">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Let's create change together.</h2>
+
+        <p>
+            Whether you want to partner with us, volunteer or learn more
+            about our work, we would love to hear from you.
+        </p>
+
+        <div class="contact-details">
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>info@jawaab.org</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Narok, Kenya</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <form class="contact-form" onsubmit="sendMessage(event)">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <input type="text" placeholder="Subject">
+
+        <textarea placeholder="Your Message" rows="6" required></textarea>
+
+        <button type="submit">
+            Send Message
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-about">
+
+            <h2>JAWAAB</h2>
+
+            <p>
+                Empowering communities. Transforming lives.
+                Building a just, healthy and sustainable society.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#about">About Us</a>
+            <a href="#programmes">Programmes</a>
+            <a href="#impact">Our Impact</a>
+            <a href="#stories">News & Stories</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Our Programmes</h3>
+
+            <a href="#">Mental Wellness</a>
+            <a href="#">Climate Action</a>
+            <a href="#">Gender Equity</a>
+            <a href="#">WASH</a>
+
+        </div>
+
+
+        <div class="footer-donate">
+
+            <h3>Support Our Mission</h3>
+
+            <p>
+                Your support helps us reach more communities
+                and create sustainable change.
+            </p>
+
+            <a href="#donate" class="donate-btn">
+                <i class="fa-solid fa-heart"></i>
+                Donate Now
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Jawaab Empowerment Initiative. All Rights Reserved.
+        </p>
+
+        <p>
+            Kenya
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
